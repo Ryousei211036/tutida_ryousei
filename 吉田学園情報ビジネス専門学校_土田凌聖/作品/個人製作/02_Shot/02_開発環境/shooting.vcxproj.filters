@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\object">
+      <UniqueIdentifier>{3c43e019-6e97-41d5-bdcc-a4659c5b24d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game">
+      <UniqueIdentifier>{d03fb8e7-0523-458a-aadd-3faa99cdb263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\input">
+      <UniqueIdentifier>{882a6964-6bab-4cf7-a867-f353a6c8d66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene">
+      <UniqueIdentifier>{397a6689-698f-4e5e-a63c-baea975a14ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\number">
+      <UniqueIdentifier>{c300f3ec-0c6b-4a76-ad2d-440d9cdd4a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\ui">
+      <UniqueIdentifier>{8ed71bf2-0291-4ee7-b5d3-6cd82142bdf8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="bg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>ソース ファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="object2D.cpp">
+      <Filter>ソース ファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="exp.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="inputkeyboard.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>ソース ファイル\number</Filter>
+    </ClCompile>
+    <ClCompile Include="ranking.cpp">
+      <Filter>ソース ファイル\number</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\number</Filter>
+    </ClCompile>
+    <ClCompile Include="evodisplay.cpp">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="expgage.cpp">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="hpgage.cpp">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="leveldisplay.cpp">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="statusdisplay.cpp">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="statuslevel.cpp">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="object.h">
+      <Filter>ソース ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="object2D.h">
+      <Filter>ソース ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="exp.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ソース ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="inputkeyboard.h">
+      <Filter>ソース ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>ソース ファイル\number</Filter>
+    </ClInclude>
+    <ClInclude Include="ranking.h">
+      <Filter>ソース ファイル\number</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ソース ファイル\number</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="bg.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="evodisplay.h">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="expgage.h">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="hpgage.h">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="leveldisplay.h">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="statusdisplay.h">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="statuslevel.h">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>ソース ファイル\game\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

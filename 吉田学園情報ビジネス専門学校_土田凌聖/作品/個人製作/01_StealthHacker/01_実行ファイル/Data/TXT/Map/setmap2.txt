@@ -1,0 +1,22 @@
+SCRIPT
+
+FILE_NAME = Data/XFILE/wall.x
+FILE_NAME = Data/XFILE/robot_wall.x
+FILE_NAME = Data/XFILE/key.x
+FILE_NAME = Data/XFILE/door_length.x
+FILE_NAME = Data/XFILE/door_width.x
+FILE_NAME = Data/XFILE/doorwall.x
+FILE_NAME = Data/XFILE/PC.x
+FILE_NAME = Data/XFILE/table.x
+FILE_NAME = Data/XFILE/button.x
+FILE_NAME = Data/XFILE/shutter.x
+
+MODELSET
+	POS = 100.0 0.0 -500.0
+	ROT = 0.0 0.0 0.0
+	SCALE = 0 1.0 1.0
+	MODELTYPE = 0
+	OBJTYPE = 0
+END_MODELSET
+
+END_SCRIPT

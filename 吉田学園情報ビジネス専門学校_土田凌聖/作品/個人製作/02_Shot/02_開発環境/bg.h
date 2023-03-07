@@ -1,0 +1,36 @@
+//==============================================================================================
+//
+// îwåiÅ@Å@Å@bg.h
+// ìyìcóΩêπ
+//
+//==============================================================================================
+#ifndef _BG_H_
+#define	_BG_H_
+
+#include"object2D.h"
+
+#define BG_WIDTH				(3500.0f)		// îwåiÇÃïù
+#define BG_HEIGHT				(3500.0f)		// îwåiÇÃçÇÇ≥
+
+class CBg : public CObject2D
+{
+public:
+	CBg();
+	~CBg();
+
+	HRESULT Init(D3DXVECTOR3 pos) override;
+	void Uninit() override;
+	void Update() override;
+	void Draw()  override;
+
+	static CBg *Create();
+
+private:
+	D3DXVECTOR3 m_Pos;				// à íu
+	D3DXVECTOR3 m_InitPos;			// èâä˙à íu
+	D3DXVECTOR3 m_Move;				// à⁄ìÆó 
+	float m_fWidth;					// ïù
+	float m_fHeight;				// çÇÇ≥
+};
+
+#endif // !_BG_H_

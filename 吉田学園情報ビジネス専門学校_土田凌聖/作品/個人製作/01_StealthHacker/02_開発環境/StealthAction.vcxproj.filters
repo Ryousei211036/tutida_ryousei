@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\GameMode">
+      <UniqueIdentifier>{6dcd69ad-0fc2-45b1-be1e-af748eec76e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object">
+      <UniqueIdentifier>{3a6e5f06-597e-4e9d-9769-ebd7e5599695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\objectX">
+      <UniqueIdentifier>{b091e133-9d34-443a-9d37-6cf0f1401289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\input">
+      <UniqueIdentifier>{40c90fb2-ee96-4c0f-8443-c61f16e229e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object3D">
+      <UniqueIdentifier>{ae57f13e-92dc-4bf7-b905-304010ddddfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object2D">
+      <UniqueIdentifier>{b66da59e-c2db-4f07-bb89-4054e33a774b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object\character">
+      <UniqueIdentifier>{9329c66d-f2a8-4064-8eac-0c1cb13d96a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>ソース ファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="object2D.cpp">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="stencilpolygon.cpp">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="object3D.cpp">
+      <Filter>ソース ファイル\object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="objectX.cpp">
+      <Filter>ソース ファイル\objectX</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\object\character</Filter>
+    </ClCompile>
+    <ClCompile Include="charmanager.cpp">
+      <Filter>ソース ファイル\object\character</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\object\character</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\object\character</Filter>
+    </ClCompile>
+    <ClCompile Include="meshfield.cpp">
+      <Filter>ソース ファイル\object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="inputkeyboard.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\objectX</Filter>
+    </ClCompile>
+    <ClCompile Include="robot.cpp">
+      <Filter>ソース ファイル\object\character</Filter>
+    </ClCompile>
+    <ClCompile Include="setobject.cpp">
+      <Filter>ソース ファイル\objectX</Filter>
+    </ClCompile>
+    <ClCompile Include="gage.cpp">
+      <Filter>ソース ファイル\object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="title_logo.cpp">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="ranking.cpp">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>ソース ファイル\GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial_text.cpp">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="inputjoypad.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="texture.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ソース ファイル\GameMode</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ソース ファイル\GameMode</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ソース ファイル\GameMode</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>ソース ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ソース ファイル\GameMode</Filter>
+    </ClInclude>
+    <ClInclude Include="object2D.h">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="stencilpolygon.h">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="object3D.h">
+      <Filter>ソース ファイル\object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="objectX.h">
+      <Filter>ソース ファイル\objectX</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ソース ファイル\object\character</Filter>
+    </ClInclude>
+    <ClInclude Include="charmanager.h">
+      <Filter>ソース ファイル\object\character</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ソース ファイル\object\character</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ソース ファイル\object\character</Filter>
+    </ClInclude>
+    <ClInclude Include="meshfield.h">
+      <Filter>ソース ファイル\object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="inputkeyboard.h">
+      <Filter>ソース ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ソース ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ソース ファイル\objectX</Filter>
+    </ClInclude>
+    <ClInclude Include="robot.h">
+      <Filter>ソース ファイル\object\character</Filter>
+    </ClInclude>
+    <ClInclude Include="setobject.h">
+      <Filter>ソース ファイル\objectX</Filter>
+    </ClInclude>
+    <ClInclude Include="gage.h">
+      <Filter>ソース ファイル\object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="title_logo.h">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="ranking.h">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>ソース ファイル\GameMode</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial_text.h">
+      <Filter>ソース ファイル\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="inputjoypad.h">
+      <Filter>ソース ファイル\input</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
